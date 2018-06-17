@@ -1,8 +1,12 @@
 # mac files
 .DS_Store
 
-# dev files
+# dependencies
 node_modules/*
 
-# ommit yarn sign
+# omit yarn sign
 !node_modules/.yarn-integrity
+
+# omit build files
+dist/*
+!dist/index.html
